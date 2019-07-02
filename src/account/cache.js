@@ -20,6 +20,7 @@ module.exports = {
   },
   "subscription": {
     "create": true,
+    "simulate": true,
     "validate": true
   },
   "siteTransfers": {
@@ -27,6 +28,7 @@ module.exports = {
     "find": true,
     "create": true,
     "destroy": true,
+    "simulateAccept": true,
     "accept": true,
     "decline": true
   },

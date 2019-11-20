@@ -24,7 +24,7 @@ export default function generateClient(subdomain, cache, extraMethods = {}) {
   return function Client(
     token,
     extraHeaders = {},
-    baseUrl = `https://${subdomain}.datocms.com`,
+    baseUrl = `http://${subdomain}.lvh.me:3001`,
   ) {
     let schemaPromise;
 
